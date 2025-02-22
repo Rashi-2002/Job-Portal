@@ -29,65 +29,7 @@ A **Full-Stack Job Portal** built using **ReactJS, Node.js, Express, and MongoDB
 
 ---
 
-## 📂 Folder Structure
-job-portal/
-│── backend/       # Node.js + Express Backend
-│   ├── models/    # Database Schemas
-│   ├── routes/    # API Routes
-│   ├── controllers/ # Business Logic
-│   ├── middleware/ # Authentication & Authorization
-│   └── server.js  # Main server file
-│
-│── frontend/      # ReactJS Frontend
-│   ├── src/       
-│   │   ├── components/  # Reusable UI Components
-│   │   ├── pages/       # Pages like Home, Login, Profile
-│   │   ├── redux/       # State Management (Redux Toolkit)
-│   │   ├── App.js       # Main App Component
-│   │   └── index.js     # Entry Point
-│
-│── .gitignore
-│── README.md
-│── package.json
+## 📂 Folder Structure  
 
-
----
-
-## 🚀 Installation & Setup  
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/Rashi-2002/Job-Portal.git
-cd Job-Portal
-
-##Install Dependencies
-sh
-Copy
-Edit
-
-# Backend
-cd backend
-npm install
-
-# Frontend
-cd ../frontend
-npm install
-3️⃣ Setup Environment Variables
-Create a .env file in the backend directory with:
-
-ini
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-4️⃣ Start the Development Server
-sh
-Copy
-Edit
-# Start Backend
-cd backend
-npm run dev
-
-# Start Frontend
-cd ../frontend
-npm run dev
-The app will run on http://localhost:3000 🚀
+job-portal/ │── backend/ # Node.js + Express Backend │ ├── models/ # Database Schemas │ ├── routes/ # API Routes │ ├── controllers/ # Business Logic │ ├── middleware/ # Authentication & Authorization │ ├── config/ # Database Connection │ ├── uploads/ # File Uploads │ ├── server.js # Main Server File │ ├── .env # Environment Variables │ ├── package.json # Backend Dependencies │ │── frontend/ # ReactJS Frontend │ ├── src/
+│ │ ├── components/ # Reusable UI Components │ │ ├── pages/ # Pages like Home, Login, Profile │ │ ├── redux/ # State Management (Redux Toolkit) │ │ ├── services/ # API Calls │ │ ├── assets/ # Images, Icons, etc. │ │ ├── App.js # Main App Component │ │ └── index.js # Entry Point │ ├── public/ # Static Files │ ├── .env # Environment Variables │ ├── package.json # Frontend Dependencies │ │── .gitignore # Files to Ignore in Version Control │── README.md # Project Documentation │── package.json # Project Dependencies
