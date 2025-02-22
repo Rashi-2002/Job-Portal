@@ -31,5 +31,31 @@ A **Full-Stack Job Portal** built using **ReactJS, Node.js, Express, and MongoDB
 
 ## 📂 Folder Structure  
 
-job-portal/ │── backend/ # Node.js + Express Backend │ ├── models/ # Database Schemas │ ├── routes/ # API Routes │ ├── controllers/ # Business Logic │ ├── middleware/ # Authentication & Authorization │ ├── config/ # Database Connection │ ├── uploads/ # File Uploads │ ├── server.js # Main Server File │ ├── .env # Environment Variables │ ├── package.json # Backend Dependencies │ │── frontend/ # ReactJS Frontend │ ├── src/
-│ │ ├── components/ # Reusable UI Components │ │ ├── pages/ # Pages like Home, Login, Profile │ │ ├── redux/ # State Management (Redux Toolkit) │ │ ├── services/ # API Calls │ │ ├── assets/ # Images, Icons, etc. │ │ ├── App.js # Main App Component │ │ └── index.js # Entry Point │ ├── public/ # Static Files │ ├── .env # Environment Variables │ ├── package.json # Frontend Dependencies │ │── .gitignore # Files to Ignore in Version Control │── README.md # Project Documentation │── package.json # Project Dependencies
+job-portal/
+│── backend/                 # Node.js + Express Backend
+│   ├── models/              # Database Schemas
+│   ├── routes/              # API Routes
+│   ├── controllers/         # Business Logic
+│   ├── middleware/          # Authentication & Authorization
+│   ├── config/              # Database Connection
+│   ├── uploads/             # File Uploads
+│   ├── server.js            # Main Server File
+│   ├── .env                 # Environment Variables
+│   ├── package.json         # Backend Dependencies
+│
+│── frontend/                # ReactJS Frontend
+│   ├── src/                 
+│   │   ├── components/      # Reusable UI Components
+│   │   ├── pages/           # Pages like Home, Login, Profile
+│   │   ├── redux/           # State Management (Redux Toolkit)
+│   │   ├── services/        # API Calls
+│   │   ├── assets/          # Images, Icons, etc.
+│   │   ├── App.js           # Main App Component
+│   │   └── index.js         # Entry Point
+│   ├── public/              # Static Files
+│   ├── .env                 # Environment Variables
+│   ├── package.json         # Frontend Dependencies
+│
+│── .gitignore               # Files to Ignore in Version Control
+│── README.md                # Project Documentation
+│── package.json             # Project Dependencies
